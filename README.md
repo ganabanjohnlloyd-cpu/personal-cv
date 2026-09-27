@@ -12,9 +12,7 @@
 
 ## About This Project
 
-This project is a personal Curriculum Vitae (CV) webpage
-created using HTML and CSS.
-
+This project is my personal Curriculum Vitae (CV) website created using HTML and CSS.
 The webpage presents my personal profile, education,
 skills, and contact information.
 
