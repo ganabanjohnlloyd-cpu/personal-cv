@@ -697,3 +697,85 @@ footer a {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Compact professional layout improvements */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  line-height: 1.6;
+}
+
+section {
+  scroll-margin-top: 85px;
+}
+
+/* Reduce excessive section spacing */
+.section,
+.about-section,
+.education-section,
+.skills-section,
+.projects-section,
+.contact-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/* Keep the homepage balanced */
+.hero {
+  min-height: auto;
+  padding: 64px 24px;
+}
+
+.hero-content {
+  gap: 32px;
+}
+
+/* Make the profile card more compact */
+.hero-card {
+  padding: 28px 24px;
+  max-width: 440px;
+}
+
+/* Keep text readable without long lines */
+.hero-description {
+  max-width: 520px;
+}
+
+.about-content,
+.section-content {
+  max-width: 100%;
+}
+
+/* Reduce unnecessary card padding */
+.card,
+.project-card,
+.education-card,
+.skill-card {
+  padding: 22px;
+}
+
+/* Responsive layout for phones and tablets */
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .section,
+  .about-section,
+  .education-section,
+  .skills-section,
+  .projects-section,
+  .contact-section {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+
+  .hero-card {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
