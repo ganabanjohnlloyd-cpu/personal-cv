@@ -1,24 +1,36 @@
-# Personal CV Web Page
+# Personal CV Website
 
 ## Student Information
 
-**Complete Name:** John Lloyd C. Ganaban
+- **Name:** John Lloyd C. Ganaban
+- **Year Level:** 4th Year
+- **Section:** BSIT 4-D
+- **Subject:** IT415
 
-**Year Level:** 4th Year
+## About the Project
 
-**Set/Section:** BSIT 4-D
+This project is a personal Curriculum Vitae (CV) website designed to present my background, education, technical skills, projects, and contact information in a clean and professional layout.
 
-**Subject:** IT415
+## Live Website
 
-## About This Project
-
-This project is my personal Curriculum Vitae (CV) website created using HTML and CSS.
-The webpage presents my personal profile, education,
-skills, and contact information.
+[View My Personal CV](https://personal-cv-smoky-zeta.vercel.app/)
 
 ## Technologies Used
 
-- HTML
-- CSS
-- Visual Studio Code
-- GitHub
+- HTML5
+- CSS3
+- JavaScript
+- GitHub for source code management
+- Vercel for deployment
+
+## Features
+
+- Professional profile and introduction
+- Education and technical skills sections
+- Project portfolio
+- Contact links
+- Responsive layout and visual animations
+
+## Repository
+
+[View Source Code on GitHub](https://github.com/ganabanjohnlloyd-cpu/personal-cv)
