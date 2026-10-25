@@ -246,19 +246,16 @@ footer a:hover {
 }
 
 .profile-placeholder {
-  width: 116px;
-  height: 116px;
+  display: block;
+  width: 140px;
+  height: 140px;
   margin: 0 auto 20px;
-  display: grid;
-  place-items: center;
-  border: 5px solid var(--white);
+  object-fit: cover;
+  object-position: center 25%;
+  border: 4px solid #ffffff;
   outline: 2px solid #dbe4ff;
   border-radius: 50%;
-  background: linear-gradient(135deg, #e8edff, #cbd8ff);
-  color: var(--primary);
-  font-size: 36px;
-  font-weight: 800;
-  letter-spacing: -2px;
+  box-shadow: 0 8px 24px rgba(23, 35, 63, 0.12);
 }
 
 .hero-card h2 {
